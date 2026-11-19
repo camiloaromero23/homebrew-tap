@@ -1,15 +1,15 @@
 class RexSessionManager < Formula
   desc "Project session manager for the Rex terminal multiplexer"
   homepage "https://github.com/camiloaromero23/rex-session-manager"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/camiloaromero23/rex-session-manager/releases/download/v0.1.0/rex-session-manager-aarch64-apple-darwin.tar.xz"
-      sha256 "9e99db5dde5f6c9fcee0cccb0801834ec5ef5b1dbbfcc868f867a36b16da231f"
+      url "https://github.com/camiloaromero23/rex-session-manager/releases/download/v0.2.0/rex-session-manager-aarch64-apple-darwin.tar.xz"
+      sha256 "6060af522c4ec72359188f6bd8bac0016d6a46c771438ff527afc06e0a947f45"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/camiloaromero23/rex-session-manager/releases/download/v0.1.0/rex-session-manager-x86_64-apple-darwin.tar.xz"
-      sha256 "6f670314378cb9591aefdc57df73bf341a6e541204d001e8c12f90f8780774dd"
+      url "https://github.com/camiloaromero23/rex-session-manager/releases/download/v0.2.0/rex-session-manager-x86_64-apple-darwin.tar.xz"
+      sha256 "2c222c2f7308673b20434036807bfdf2ab309277550d71793bec25cf6e760974"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
